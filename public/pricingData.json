@@ -1,0 +1,40 @@
+[
+    {
+      "type": "Basic",
+      "price": "$9.99/months",
+      "id":1,
+      "target_audience": "Beginners",
+      "features": [
+        "Access to basic content",
+        "Community forum access",
+        "Email support (48hr response)"
+      ]
+    },
+    {
+      "type": "Pro",
+      "price": "$24.99/months",
+      "id":2,
+      "currency": "USD",
+      "is_popular": true,
+      "target_audience": "Regular users",
+      "features": [
+        "Everything in Basic",
+        "Exclusive premium content",
+        "Priority support (12hr response)",
+        "Offline downloads"
+      ]
+    },
+    {
+      "type": "Premium",
+      "price": "$49.99/months",
+      "id":3,
+      "currency": "USD",
+      "target_audience": "Power users & Teams",
+      "features": [
+        "Everything in Pro",
+        "1-on-1 monthly consultation",
+        "24/7 dedicated support",
+        "Multi-device login (up to 5)"
+      ]
+    }
+  ]

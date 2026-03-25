@@ -35,14 +35,14 @@ const Navber = () => {
         <div className='flex gap-1.5 list-none relative' onClick={() => setOpen(!open)}>
             {open ? <X /> : <Menu className='sm:hidden' size={24} color="#3d9bff" strokeWidth={1.75} />}
             <ul className={`text-sm absolute left-3 duration-700
-                    ${open ? 'top-6' : '-top-40'}`
+                    ${open ? 'top-6' : '-top-80'}`
                 }>
                 {navInfo}
             </ul>
             <h1 className='font-semibold'>NavberIcon</h1>
         </div>
         
-        <ul className='sm:flex gap-8 text-sm max-[500px]:hidden'>
+        <ul className='sm:flex gap-8 text-sm hidden'>
             {
                 navInfo
             }
