@@ -20,7 +20,7 @@ const PricingCard = ({getData}) => {
               </p>)
           }
         </div>
-        <button className='bg-black py-1.5 rounded-lg font-semibold hover:bg-[#111] cursor-pointer '>Let's Access</button>
+        <button className='bg-black py-1.5 rounded-lg font-semibold hover:bg-[#111] cursor-pointer active:scale-90 '>Let's Access</button>
       </div>
     </div>
   )
