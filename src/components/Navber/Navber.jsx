@@ -1,6 +1,29 @@
 import React from 'react'
 import { Menu } from 'lucide-react';
 
+const navigationData = [
+    {
+        name: 'Home',
+        path: '/home',
+        id: 1
+    },
+    {
+        name: 'About Us',
+        path: '/about-us',
+        id: 2
+    },
+    {
+        name: 'Services',
+        path: '/Services',
+        id: 3
+    },
+    {
+        name: 'Contect Us',
+        path: '/Contect Us',
+        id: 4
+    },
+]
+
 const Navber = () => {
   return (
     <div className='flex justify-between items-center px-6 py-2'>
@@ -10,10 +33,9 @@ const Navber = () => {
         </div>
         
         <ul className='flex gap-8 text-sm max-[500px]:hidden'>
-            <li>Home</li>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Contect US</li>
+            {
+                navigationData.map(navData => <li key={navData.id}>{navData.name}</li>)
+            }
         </ul>
 
         
