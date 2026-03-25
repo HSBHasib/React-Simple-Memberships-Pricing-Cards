@@ -20,3 +20,4 @@ const MemberShipPricing = ({data}) => {
 }
 
 export default MemberShipPricing
+

@@ -27,5 +27,3 @@ const PricingCard = ({getData}) => {
 }
 
 export default PricingCard
-
-
